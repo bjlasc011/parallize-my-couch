@@ -1,0 +1,1 @@
+dotnet-counters.exe monitor -p %1 --output .\logs\processCounters.log --format json --counters System.Runtime[threadpool-queue-length,threadpool-thread-count,threadpool-completed-items-count,monitor-lock-contention-count],CouchbaseNetClient[db.couchbase.connections,db.couchbase.operations.count,db.couchbase.operations.status,db.couchbase.retries,db.couchbase.sendqueue.length]

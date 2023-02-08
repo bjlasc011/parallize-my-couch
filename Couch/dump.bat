@@ -1,0 +1,1 @@
+dotnet-dump.exe collect -p %1 --type Full --diag
